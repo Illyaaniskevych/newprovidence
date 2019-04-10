@@ -2,4 +2,29 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+#first .header .navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#first .header .navbar .container .menu-left ul li {
+  list-style-type: none;
+}
+
+#first .header .navbar .container .menu-left ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+#first .header .navbar .container .logo a {
+  text-decoration: none;
+  color: #000000;
+}
 /*# sourceMappingURL=style.css.map */
